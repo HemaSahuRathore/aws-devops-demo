@@ -15,7 +15,7 @@ phases:
     commands:
     - echo building the justiceleague-tracker
     - mvn install
-    - mvn clean deploy sonar:sonar
+#     - mvn clean deploy sonar:sonar
 artifacts:
   files:
   - target/*.jar
