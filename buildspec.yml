@@ -9,6 +9,7 @@ phases:
     commands:
     - echo installing maven...
     - apt-get update -y
+    - apt install openjdk-11-jdk-headless -y
     - apt-get install -y maven
   build:
     commands:
